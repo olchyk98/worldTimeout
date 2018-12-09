@@ -1,0 +1,27 @@
+{
+  "name": "socket-live-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olchyk98/worldTimeout.git"
+  },
+  "keywords": [
+    "socket-io",
+    "javascript"
+  ],
+  "author": "Oles Odynets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olchyk98/worldTimeout/issues"
+  },
+  "homepage": "https://github.com/olchyk98/worldTimeout#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
