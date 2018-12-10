@@ -4,20 +4,25 @@ html, body {
 	margin:0;
 	height:100%;
 	font-family:"Quicksand";
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
 }
 
 .hitter {
 	--size:150px;
-
 	height:var(--size);
 	width:var(--size);
 	border-radius:50%;
 	background:red;
-	font-size:2em;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-right:50%;
-	transform:translate(-50%, -50%);
+	font-size:1.75em;
 	cursor:pointer;
+	color:white;
+	border:1px solid rgba(0, 0, 0, .1);
+	transition:.15s;
+}
+
+.hitter:active {
+	transform:scale(.95);
 }
